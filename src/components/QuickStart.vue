@@ -11,7 +11,7 @@ const cld = new Cloudinary({
 });
 
 // Instantiate a CloudinaryImage object for the image with the public ID, 'docs/models'.
-const myImg = cld.image("cheesecake");
+const myImg = cld.image("hotspot/2016/Junio");
 
 // Resize to 250 x 250 pixels using the 'fill' crop mode.
 myImg.resize(fill().width(250).height(250));
